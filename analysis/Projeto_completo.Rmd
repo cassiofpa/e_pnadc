@@ -43,3 +43,11 @@ Como estratégia de ação a equipe é formada por dois professores com formaç�
 
 Uma biblioteca em R que facilite o acesso aos dados da PNADc, fazer tabulações e gráficos.
 Possibilitar que qualquer usuário com conhecimento básico de R possa acessar a PNADc, gerar tabulações e gráficos sem se preocupar com aspectos técnicos do desenho amostral.
+
+## Plano de trabalho
+O projeto será desenvolvido de acordo com as atividades apresentadas no cronograma abaixo:
+
+```{r echo=FALSE}
+knitr::include_graphics("analysis/tabela1.png")
+```
+
