@@ -411,16 +411,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomcassiofpaepnadctree4ad82add203018e077768cf57cc65483564340f9targetblank4ad82ada"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/cassiofpa/e_pnadc/tree/4ad82add203018e077768cf57cc65483564340f9" target="_blank">4ad82ad</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomcassiofpaepnadctreea76fa9f32ab402c73c9b500da10a2f0fca84d148targetblanka76fa9fa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/cassiofpa/e_pnadc/tree/a76fa9f32ab402c73c9b500da10a2f0fca84d148" target="_blank">a76fa9f</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomcassiofpaepnadctree4ad82add203018e077768cf57cc65483564340f9targetblank4ad82ada" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomcassiofpaepnadctreea76fa9f32ab402c73c9b500da10a2f0fca84d148targetblanka76fa9fa" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/cassiofpa/e_pnadc/tree/4ad82add203018e077768cf57cc65483564340f9" target="_blank">4ad82ad</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/cassiofpa/e_pnadc/tree/a76fa9f32ab402c73c9b500da10a2f0fca84d148" target="_blank">a76fa9f</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -429,6 +429,9 @@ Note that you need to be careful to ensure that all relevant files for the analy
 Ignored files:
     Ignored:    .Rhistory
     Ignored:    .Rproj.user/
+
+Untracked files:
+    Untracked:  analysis/Projeto_completo.Rmd
 
 Unstaged changes:
     Modified:   analysis/_site.yml
@@ -478,6 +481,40 @@ Message
 Rmd
 </td>
 <td>
+<a href="https://github.com/cassiofpa/e_pnadc/blob/a76fa9f32ab402c73c9b500da10a2f0fca84d148/analysis/Projeto.Rmd" target="_blank">a76fa9f</a>
+</td>
+<td>
+cassiofpa
+</td>
+<td>
+2021-07-05
+</td>
+<td>
+Add my first analysis
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/cassiofpa/e_pnadc/36e2f4ee2032a6411fbc8a6f6d5d847e0cd03c70/docs/Projeto.html" target="_blank">36e2f4e</a>
+</td>
+<td>
+cassiofpa
+</td>
+<td>
+2021-07-05
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
 <a href="https://github.com/cassiofpa/e_pnadc/blob/4ad82add203018e077768cf57cc65483564340f9/analysis/Projeto.Rmd" target="_blank">4ad82ad</a>
 </td>
 <td>
@@ -499,25 +536,58 @@ Add my first analysis
 </div>
 <div id="introdução" class="section level2">
 <h2>Introdução</h2>
-<p>É incontestável o papel das estatísticas públicas para a formulação e avaliação de políticas públicas. Considerando as dimensões do Brasil, manter o sistema estatístico nacional em funcionamento é uma tarefa complexa. O IBGE tem cumprido o seu papel disponibilizando informações estatísticas de qualidade com boa cobertura e periodicidade. Em um território tão grande, os levantamentos amostrais são necessários para reduzir custos e atender as necessidades de periodização mantendo a boa qualidade. Para atender as necessidades destas pesquisas, os desenhos amostrais são sofisticados (complexos) e as análises a partir destas pesquisas amostrais devem levar em consideração o desenho amostral nos cálculos das estatísticas. Atualmente, mesmo com a grande disseminação de informação pela internet e com as facilidades dos recursos computacionais, o usuário comum, um analista, que utiliza estatísticas das pesquisas amostrais enfrenta dificuldades para proceder os cálculos corretamente. Temos que considerar que grande parte dos usuários ou possíveis usuários destas pesquisas não tem interesse no cálculo das estatísticas, mas sim na utilização destas nas suas análises. Atualmente o IBGE disponibiliza todos os microdados das pesquisas e sua documentação, mas para o usuário interessado nas tabulações, há algumas publicações e o SIDRA que disponibiliza uma grande coleção de tabulações onde o usuário pode fazer alguns recortes e obter os dados. Não há um sistema para tabulação online e nem um software que faça isso de forma simples que atenda o usuário analista.</p>
+<ul>
+<li>É incontestável o papel das estatísticas públicas para a formulação e avaliação de políticas públicas. - - Há muitas bases de dados disponíveis - Dados Abertos</li>
+<li>Geralmente são acessíveis para um público especializado</li>
+<li>Não há uma interface que facilite a tabulação dos dados</li>
+</ul>
 </div>
 <div id="justificativa-para-escolha-do-tema" class="section level2">
 <h2>Justificativa para escolha do tema</h2>
-<p>Considerando a relevância das estatísticas públicas e a dificuldade dos usuários para fazer tabulações e interpretar os dados de pesquisas amostrais complexas é relevante a iniciativa de propor instrumentos que facilitem o acesso e proporcionem uma interpretação adequada destas estatísticas.</p>
+<ul>
+<li>É importante que todos tenham acesso às estatísticas públicas</li>
+<li>É importante que todos possam fazer a própria tabulação</li>
+<li>Há a necessidade de instrumentos que facilitem o acesso e proporcionem uma interpretação adequada destas estatísticas.</li>
+</ul>
 </div>
 <div id="objetivo-geral-e-objetivos-específicos" class="section level2">
 <h2>Objetivo geral e objetivos específicos</h2>
-<p>Este projeto tem por objetivo gerar um método simplificado para tabulações da PNAD-contínua e explorar os resultados dando ênfase às medidas e incertezas em tabelas e gráficos. Para alcançar este objetivo geral, a presente proposta de projeto terá os seguintes objetivos específicos: 1. Entender o que é uma pesquisa amostral;<br />
-Compreender o que é plano amostral de uma pesquisa; Conhecer a Pesquisa Nacional por amostra de domicílios (PNAD Contínua): O que é a PNAD Contínua? Qual o objetivo da pesquisa? Qual a abrangência territorial? Aprender a programar em R Explorar a base de dados da PNAD contínua; Selecionar formas gráficas para analisar e interpretar os resultados; Construir uma biblioteca em R para gerar tabulações e gráficos com dados da PNAD-contínua.</p>
+<ul>
+<li>gerar um método simplificado para tabulações da PNAD-contínua</li>
+<li>explorar os resultados dando ênfase às medidas e incertezas em tabelas e gráficos.</li>
+</ul>
 </div>
-<div id="metodologia-e-estratégia-de-ação" class="section level2">
-<h2>Metodologia e estratégia de ação</h2>
-<p>O aluno deverá entender e compreender o que é uma pesquisa amostral e o plano amostral. Será incentivado a buscar as informações das pesquisas amostrais divulgadas pelo IBGE como CENSO e PNAD. Após esta etapa de entendimento dos conceitos fundamentais o aluno deverá aprofundar o conhecimento sobre a PNAD contínua respondendo as perguntas: “O que é a PNAD Contínua? Qual o objetivo da pesquisa? Qual a abrangência territorial?”. Conhecendo a pesquisa, o aluno deverá conhecer seu o desenho amostral e como proceder a tabulação dos dados. Utilizando a linguagem R, deverá explorar as bases da PNAD-contínua aplicando métodos para criação de tabelas e gráficos. Pretende-se fazer uma exploração ampla de todas as variáveis a fim de entender as limitações e incertezas associadas. Ao final do projeto o mesmo deverá construir uma biblioteca no R para facilitar a tabulação de dados da PNAD-contínua.</p>
-<p>Será utilizada a linguagem R em todo o projeto, desde a obtenção dos dados, tabulações, geração de gráficos, produção de textos e relatórios, até a criação da biblioteca. Como estratégia de ação a equipe é formada por dois professores com formação na área da Estatística atuando na Graduação, sendo que um deles tem doutorado em Informática e possui um alto conhecimento de programação em R e um aluno de graduação em Estatística.</p>
+<div id="quais-as-etapas-do-projeto" class="section level2">
+<h2>Quais as etapas do projeto?</h2>
+<ol style="list-style-type: decimal">
+<li>Entender o que é uma pesquisa amostral<br />
+</li>
+<li>Conhecer a Pesquisa Nacional por amostra de domicílios (PNAD Contínua)</li>
+<li>Conhecer e aplicar as melhores técnias e Ciências de Dados:
+<ul>
+<li>Programação em R (Avançada)</li>
+<li>Visualização de dados</li>
+<li>Geração automática de documentos</li>
+<li>uso do Git</li>
+</ul></li>
+<li>Gerar tabulações com dados da PNAD contínua;</li>
+<li>Selecionar formas gráficas para analisar e interpretar os resultados;</li>
+<li>Construir uma biblioteca em R para gerar tabulações e gráficos com dados da PNAD-contínua.</li>
+</ol>
 </div>
 <div id="resultados-e-impactos-esperados" class="section level2">
 <h2>Resultados e impactos esperados</h2>
-<p>Uma biblioteca em R que facilite o acesso aos dados da PNADc, fazer tabulações e gráficos. Possibilitar que qualquer usuário com conhecimento básico de R possa acessar a PNADc, gerar tabulações e gráficos sem se preocupar com aspectos técnicos do desenho amostral.</p>
+<ul>
+<li>Possibilitar que qualquer usuário com conhecimento básico de R gerar tabulações e gráficos com dados da PNADc
+<ul>
+<li>Uma biblioteca em R que facilite as tabulações da PNADc</li>
+<li>Tutorial para greração das tabulações e interpretação dos resultados</li>
+</ul></li>
+</ul>
+</div>
+<div id="projeto-original" class="section level2">
+<h2>Projeto Original</h2>
+<p>Para visualizar o Projeto Original use o link <a href="Projeto_completo.html">Prokjeto Completo</a>.</p>
 </div>
 
 
