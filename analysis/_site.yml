@@ -1,7 +1,7 @@
-name: "e_pnadc"
+name: e_pnadc
 output_dir: ../docs
 navbar:
-  title: "e_pnadc"
+  title: e_pnadc
   left:
   - text: Home
     href: index.html
@@ -9,9 +9,15 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  - text: Projeto
+    href: Projeto.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/cassiofpa/e_pnadc
 output:
   workflowr::wflow_html:
     toc: yes
     toc_float: yes
-    theme: cosmo
+    theme: yeti
     highlight: textmate
