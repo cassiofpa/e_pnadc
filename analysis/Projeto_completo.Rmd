@@ -1,0 +1,45 @@
+---
+title: "Projeto"
+author: "cassiofpa"
+date: "2021-07-05"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introdução
+
+É incontestável o papel das estatísticas públicas para a formulação e avaliação de políticas públicas. Considerando as dimensões do Brasil, manter o sistema estatístico nacional em funcionamento é uma tarefa complexa. O IBGE tem cumprido o seu papel disponibilizando informações estatísticas de qualidade com boa cobertura e periodicidade. Em um território tão grande, os levantamentos amostrais são necessários para reduzir custos e atender as necessidades de periodização mantendo a boa qualidade. Para atender as necessidades destas pesquisas, os desenhos amostrais são sofisticados (complexos) e as análises a partir destas pesquisas amostrais devem levar em consideração o desenho amostral nos cálculos das estatísticas. Atualmente, mesmo com a grande disseminação de informação pela internet e com as facilidades dos recursos computacionais, o usuário comum, um analista, que utiliza estatísticas das pesquisas amostrais enfrenta dificuldades para proceder os cálculos corretamente. Temos que considerar que grande parte dos usuários ou possíveis usuários destas pesquisas não tem interesse no cálculo das estatísticas, mas sim na utilização destas nas suas análises.  Atualmente o IBGE disponibiliza todos os microdados das pesquisas e sua documentação, mas para o usuário interessado nas tabulações, há algumas publicações e o SIDRA que disponibiliza uma grande coleção de tabulações onde o usuário pode fazer alguns recortes e obter os dados. Não há um sistema para tabulação online e nem um software que faça isso de forma simples que atenda o usuário analista.
+
+
+
+## Justificativa para escolha do tema
+
+Considerando a relevância das estatísticas públicas e a dificuldade dos usuários para fazer tabulações e  interpretar os dados de pesquisas amostrais complexas é relevante a iniciativa de propor instrumentos que facilitem o acesso e proporcionem uma interpretação adequada destas estatísticas. 
+
+## Objetivo geral e objetivos específicos
+
+Este projeto tem por objetivo gerar um método simplificado para tabulações da PNAD-contínua e explorar os resultados dando ênfase às medidas e incertezas em tabelas e gráficos.
+Para alcançar este objetivo geral, a presente proposta de projeto terá os seguintes
+objetivos específicos:
+1. Entender o que é uma pesquisa amostral;  
+Compreender o que é plano amostral de uma pesquisa;
+Conhecer a Pesquisa Nacional por amostra de domicílios (PNAD Contínua): O que é a PNAD Contínua? Qual o objetivo da pesquisa? Qual a abrangência territorial? 
+Aprender a programar em R
+Explorar a base de dados da PNAD contínua;
+Selecionar formas gráficas para analisar e interpretar os resultados;
+Construir uma biblioteca em R para gerar tabulações e gráficos com dados da PNAD-contínua.
+
+
+## Metodologia e estratégia de ação
+
+O aluno deverá entender e compreender o que é uma pesquisa amostral e o plano amostral. Será incentivado a buscar as informações das pesquisas amostrais divulgadas pelo IBGE como CENSO e PNAD. Após esta etapa de entendimento dos conceitos fundamentais o aluno deverá aprofundar o conhecimento sobre a PNAD contínua respondendo as perguntas: “O que é a PNAD Contínua? Qual o objetivo da pesquisa? Qual a abrangência territorial?”. Conhecendo a pesquisa, o aluno deverá conhecer seu  o desenho amostral e como proceder a tabulação dos dados. Utilizando a linguagem R, deverá explorar as bases da PNAD-contínua aplicando métodos para criação de tabelas e gráficos. Pretende-se fazer uma exploração ampla de todas as variáveis a fim de entender as limitações e incertezas associadas. Ao final do projeto o mesmo deverá construir uma biblioteca no R para facilitar a tabulação de dados da PNAD-contínua. 
+
+Será utilizada a linguagem R em todo o projeto, desde a obtenção dos dados, tabulações, geração de gráficos, produção de textos e relatórios,  até a criação da biblioteca. 
+Como estratégia de ação a equipe é formada por dois professores com formação na área da Estatística atuando na Graduação, sendo que um deles tem doutorado em Informática e possui um alto conhecimento de programação em R e um aluno de graduação em Estatística. 
+
+
+## Resultados e impactos esperados
+
+Uma biblioteca em R que facilite o acesso aos dados da PNADc, fazer tabulações e gráficos.
+Possibilitar que qualquer usuário com conhecimento básico de R possa acessar a PNADc, gerar tabulações e gráficos sem se preocupar com aspectos técnicos do desenho amostral.
