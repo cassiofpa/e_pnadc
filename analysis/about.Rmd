@@ -7,4 +7,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+Acreditamos que não bastam os dados estarem disponíveis para acesso público. Os dados devem ser acessíveis ao público em geral.
+Entendemos que um dado é acessível se qualquer cidadão consegue extrair informações destes dados.
+O e-PNADc é um passo neste sentido.
