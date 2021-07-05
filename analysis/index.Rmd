@@ -16,4 +16,7 @@ editor_options:
 ### Orientadores:
 
 #### Cassio Almeida
+  - e-mail: cassio.almeida@ibge.gov.br /cassiofpa@gmail.com
+            
 #### Sandra Canton
+  - e-mail: sandra.cardoso@ibge.gov.br
