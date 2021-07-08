@@ -1,5 +1,5 @@
 # e_pnadc
 
-A [workflowr][] project.
+A [website][] project.
 
-[workflowr]: https://github.com/jdblischak/workflowr
+[website]: https://cassiofpa.github.io/e_pnadc/
